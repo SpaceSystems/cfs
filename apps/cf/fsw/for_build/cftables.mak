@@ -120,7 +120,7 @@ INCLUDE_PATH = \
 ## if the mission chooses to put the src in another directory such as "src", then that can be 
 ## added here as well.
 ##
-#VPATH = $(CFS_APP_SRC)/$(PARENTAPP)/fsw/tables 
+VPATH = $(CFS_APP_SRC)/$(PARENTAPP)/fsw/tables 
 
 ##
 ## Include the common make rules for building a cFE Application
