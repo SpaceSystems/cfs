@@ -1,17 +1,18 @@
-CFE_LIB, /cf/apps/cfs_lib.so, CFS_LibInit,    CFS_LIB,    0,   0,     0x0, 0;
-CFE_APP, /cf/apps/ci_lab.so,  CI_Lab_AppMain, CI_LAB_APP, 50,  8192,  0x0, 0;
-CFE_APP, /cf/apps/to_lab.so,  TO_Lab_AppMain, TO_LAB_APP, 100, 8192,  0x0, 0;
-CFE_APP, /cf/apps/cf.so,      CF_AppMain,     CF_APP,     100, 16384, 0x0, 0;
-CFE_APP, /cf/apps/cs.so,      CS_AppMain,     CS_APP,     100, 8192,  0x0, 0;
-CFE_APP, /cf/apps/ds.so,      DS_AppMain,     DS_APP,     100, 8192,  0x0, 0;
-CFE_APP, /cf/apps/fm.so,      FM_AppMain,     FM_APP,     100, 8192,  0x0, 0;
-CFE_APP, /cf/apps/hk.so,      HK_AppMain,     HK_APP,     80,  8192,  0x0, 0;
-CFE_APP, /cf/apps/hs.so,      HS_AppMain,     HS_APP,     70,  8192,  0x0, 0;
-CFE_APP, /cf/apps/lc.so,      LC_AppMain,     LC_APP,     90,  8192,  0x0, 0;
-CFE_APP, /cf/apps/md.so,      MD_AppMain,     MD_APP,     100, 8192,  0x0, 0;
-CFE_APP, /cf/apps/mm.so,      MM_AppMain,     MM_APP,     100, 8192,  0x0, 0;
-CFE_APP, /cf/apps/sc.so,      SC_AppMain,     SC_APP,     100, 8192,  0x0, 0;
-CFE_APP, /cf/apps/sch.so,     SCH_AppMain,    SCH_APP,    100, 8192,  0x0, 0;
+CFE_LIB, /cf/apps/cfs_lib.so, CFS_LibInit,    CFS_LIB, 0,   0,     0x0, 0;
+CFE_LIB, /cf/apps/schlib.so,  SCH_LibInit,    SCH_LIB, 0,   0,     0x0, 0;
+CFE_APP, /cf/apps/ci_lab.so,  CI_Lab_AppMain, CI_LAB,  50,  8192,  0x0, 0;
+CFE_APP, /cf/apps/to_lab.so,  TO_Lab_AppMain, TO_LAB,  100, 8192,  0x0, 0;
+CFE_APP, /cf/apps/cf.so,      CF_AppMain,     CF,      100, 16384, 0x0, 0;
+CFE_APP, /cf/apps/cs.so,      CS_AppMain,     CS,      100, 8192,  0x0, 0;
+CFE_APP, /cf/apps/ds.so,      DS_AppMain,     DS,      100, 8192,  0x0, 0;
+CFE_APP, /cf/apps/fm.so,      FM_AppMain,     FM,      100, 8192,  0x0, 0;
+CFE_APP, /cf/apps/hk.so,      HK_AppMain,     HK,      80,  8192,  0x0, 0;
+CFE_APP, /cf/apps/hs.so,      HS_AppMain,     HS,      70,  8192,  0x0, 0;
+CFE_APP, /cf/apps/lc.so,      LC_AppMain,     LC,      90,  8192,  0x0, 0;
+CFE_APP, /cf/apps/md.so,      MD_AppMain,     MD,      100, 8192,  0x0, 0;
+CFE_APP, /cf/apps/mm.so,      MM_AppMain,     MM,      100, 8192,  0x0, 0;
+CFE_APP, /cf/apps/sc.so,      SC_AppMain,     SC,      100, 8192,  0x0, 0;
+CFE_APP, /cf/apps/sch.so,     SCH_AppMain,    SCH,     100, 8192,  0x0, 0;
 !
 ! Startup script fields:
 ! 1. Object Type      -- CFE_APP for an Application, or CFE_LIB for a library.
